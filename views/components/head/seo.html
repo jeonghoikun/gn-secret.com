@@ -1,0 +1,48 @@
+<meta name="author" content="{{.Page.Author}}">
+<title>{{.Page.Title}}</title>
+<meta name="description" content="{{.Page.Description}}">
+<meta name="keywords" content="{{.Page.Keywords}}">
+<link rel="canonical" href="{{.Page.URL}}">
+
+<meta name="twitter:title" content="{{.Page.Title}}">
+<meta name="twitter:description" content="{{.Page.Description}}">
+<meta name="twitter:url" content="{{.Page.URL}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{.Page.Thumbnail}}">
+
+<meta property="og:title" content="{{.Page.Title}}">
+<meta property="og:description" content="{{.Page.Description}}">
+<meta property="og:url" content="{{.Page.URL}}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{.Page.Thumbnail}}">
+
+<meta name="google-site-verification" content="{{.Site.SearchEngineConnection.Google}}">
+
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org/",
+		"@type": "Article",
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": {{.Page.URL}}
+		},
+		"headline": {{.Page.Title}},
+		"description": {{.Page.Description}},
+		"image": {{.Page.Thumbnail}},
+		"author": {
+			"@type": "Person",
+			"name": {{.Page.Author}},
+			"url": {{.Page.URL}}
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": {{.Page.Author}},
+			"logo": {
+				"@type": "ImageObject",
+				"url": {{.Page.Thumbnail}}
+			}
+		},
+		"datePublished": {{.Page.DatePublished}},
+		"dateModified": {{.Page.DateModified}}
+	}
+</script>
