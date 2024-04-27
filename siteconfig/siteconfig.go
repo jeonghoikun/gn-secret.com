@@ -55,23 +55,23 @@ type config struct {
 var Config *config = &config{
 	ModeDev: false,
 
-	Port:   uint32(8012),
+	Port:   uint32(8021),
 	Domain: "gn-secret.com",
 
 	DatePublished: time.Date(2022, time.Month(11), 28, 0, 0, 0, 0, time.Local),
 	DateModified:  time.Date(2024, time.Month(1), 5, 0, 0, 0, 0, time.Local),
 
-	Title:       "강남 퍼펙트 하이퍼블릭 - Gangnam High Public Perfect",
-	Description: "강남 퍼펙트 하이퍼블릭 공식홈페이지. 퍼펙트 퍼블릭은 엘리에나 호텔 부속 초호화 하이퍼블릭 입니다. 프라이빗한 파티 공간을 제공 합니다. 시스템 소개 및 서비스 가격(주대) 안내. 고객님의 특별한 하루를 더욱 특별하게 만들어드리는 퍼펙트에서 즐거운 추억 만들어가세요.",
-	Keywords:    "강남 퍼펙트 하이퍼블릭,강남 퍼펙트,퍼펙트 하이퍼블릭,파티룸,주대,가격",
-	Author:      "퍼펙트",
+	Title:       "강남 룸싸롱 씨크릿 - Gangnam Room Salon Secret",
+	Description: "강남 룸싸롱 씨크릿에서는 최상의 서비스와 프라이빗한 공간을 제공합니다. 고급스러운 인테리어와 전문 스태프가 만들어내는 최고의 환대를 경험하세요. 강남 최고의 명소에서 특별한 시간을 보내실 수 있습니다.",
+	Keywords:    "강남 룸싸롱 씨크릿,강남 룸싸롱,룸싸롱 씨크릿,파티룸,주대,가격",
+	Author:      "씨크릿",
 
 	Thumbnail: "/static/img/index/thumbnail.png",
 
 	Store: &store{
 		Location: "강남",
-		Category: "하이퍼블릭",
-		Name:     "퍼펙트",
+		Category: "룸싸롱",
+		Name:     "씨크릿",
 		Address:  "서울시 강남구 논현동 151-30 엘리에나호텔 지하",
 		Tel:      "010-6590-7589",
 		Images:   parseImages(),
