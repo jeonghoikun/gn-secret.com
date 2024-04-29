@@ -19,7 +19,7 @@ type Server struct {
 }
 
 func config() fiber.Config {
-	appName := "Karaoke Perfect"
+	appName := "Secret"
 	return fiber.Config{
 		AppName:      appName,
 		ServerHeader: appName,

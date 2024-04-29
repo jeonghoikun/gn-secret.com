@@ -72,7 +72,7 @@ var Config *config = &config{
 		Location: "강남",
 		Category: "룸싸롱",
 		Name:     "씨크릿",
-		Address:  "서울시 강남구 논현동 151-30 엘리에나호텔 지하",
+		Address:  "서울 강남구 역삼동 719-18",
 		Tel:      "010-6590-7589",
 		Images:   parseImages(),
 	},
