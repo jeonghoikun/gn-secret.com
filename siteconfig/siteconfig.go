@@ -76,9 +76,8 @@ var Config *config = &config{
 		Tel:      "010-7970-9057",
 		Images:   parseImages(),
 	},
-
 	SearchEngineConnection: &searchEngineConnection{
-		Google: "MymVF9NWXKDeOkux9wwNkGAGfahosPwju227NyeStwg",
+		Google: "vca6lAnDIG-285kKpSxmm47sVeAOO5U-IM-_fvTAsaU",
 	},
 }
 
