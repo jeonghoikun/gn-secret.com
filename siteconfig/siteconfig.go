@@ -73,7 +73,7 @@ var Config *config = &config{
 		Category: "풀싸롱",
 		Name:     "씨크릿",
 		Address:  "서울 강남구 역삼동 719-18",
-		Tel:      "010-7970-9057",
+		Tel:      "010-8022-2946",
 		Images:   parseImages(),
 	},
 	SearchEngineConnection: &searchEngineConnection{
