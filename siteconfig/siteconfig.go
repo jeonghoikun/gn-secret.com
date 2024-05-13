@@ -59,19 +59,19 @@ var Config *config = &config{
 	Domain: "gn-secret.com",
 
 	DatePublished: time.Date(2022, time.Month(11), 28, 0, 0, 0, 0, time.Local),
-	DateModified:  time.Date(2024, time.Month(1), 5, 0, 0, 0, 0, time.Local),
+	DateModified:  time.Date(2024, time.Month(5), 14, 0, 0, 0, 0, time.Local),
 
-	Title:       "강남 풀싸롱 씨크릿 - Gangnam Room Salon Secret",
-	Description: "강남 풀싸롱 씨크릿에서는 최상의 서비스와 프라이빗한 공간을 제공합니다. 고급스러운 인테리어와 전문 스태프가 만들어내는 최고의 환대를 경험하세요. 강남 최고의 명소에서 특별한 시간을 보내실 수 있습니다.",
-	Keywords:    "강남 풀싸롱 씨크릿,강남 풀싸롱,풀싸롱 씨크릿,파티룸,주대,가격",
-	Author:      "씨크릿",
+	Title:       "강남 풀싸롱 세븐",
+	Description: "강남 풀싸롱 세븐에서는 화려하고 역동적인 분위기 속에서 최상의 서비스와 고급스러운 경험을 제공합니다. 세븐의 럭셔리한 환경에서 특별한 시간을 보내보세요. 이곳은 방문객들에게 다양한 엔터테인먼트와 최고의 만족을 약속하는 장소로, 강남의 밤문화를 대표하는 고급스러운 공간입니다. 매력적인 분위기에서 편안하고 즐거운 시간을 보낼 수 있어 방문객들에게 잊지 못할 추억을 선사합니다.",
+	Keywords:    "강남 풀싸롱 세븐,강남 풀싸롱,풀싸롱 세븐,파티룸,주대,가격",
+	Author:      "세븐",
 
 	Thumbnail: "/static/img/index/thumbnail.png",
 
 	Store: &store{
 		Location: "강남",
 		Category: "풀싸롱",
-		Name:     "씨크릿",
+		Name:     "세븐",
 		Address:  "서울 강남구 역삼동 719-18",
 		Tel:      "010-8022-2946",
 		Images:   parseImages(),
