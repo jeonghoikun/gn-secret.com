@@ -1,7 +1,7 @@
 <footer class="mt-10 bg-zinc-900 text-sm">
 	<div class="container mx-auto py-5 px-3 space-y-3">
 		<div>
-			<span>{{.Site.Store.Name}}{{.Site.Store.Category}}</span>
+			<span>{{.Site.Store.Category}} {{.Site.Store.Name}}</span>
 			<span>|</span>
 			<span>{{.Site.Store.Address}}</span>
 			<span>|</span>
@@ -9,6 +9,6 @@
 			<span>|</span>
 			<span>Hosting: Asia/Seoul EC2 AWS(Amazon Web Service)</span>
 		</div>
-		<div>Copyright © {{.TimeNow.Format "2006"}} {{.Site.Store.Location}} {{.Site.Store.Name}} {{.Site.Store.Category}} Inc. All rights reserved.</div>
+		<div>Copyright © {{.TimeNow.Format "2006"}} {{.Site.Store.Location}} {{.Site.Store.Category}} {{.Site.Store.Name}} Inc. All rights reserved.</div>
 	</div>
 </footer>
