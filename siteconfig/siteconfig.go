@@ -55,7 +55,7 @@ type config struct {
 var Config *config = &config{
 	ModeDev: false,
 
-	Port:   uint32(8021),
+	Port:   uint32(80),
 	Domain: "gn-secret.com",
 
 	DatePublished: time.Date(2022, time.Month(11), 28, 0, 0, 0, 0, time.Local),

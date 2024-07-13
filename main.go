@@ -26,6 +26,6 @@ func init() {
 }
 
 func main() {
-	s := server.New(uint32(8021))
+	s := server.New(uint32(80))
 	log.Fatal(s.Serve())
 }
