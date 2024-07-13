@@ -73,7 +73,7 @@ var Config *config = &config{
 		Category: "풀싸롱",
 		Name:     "세븐",
 		Address:  "서울 강남구 역삼동 719-18",
-		Tel:      "010-8022-2946",
+		Tel:      "010-5860-0075",
 		Images:   parseImages(),
 	},
 	SearchEngineConnection: &searchEngineConnection{
